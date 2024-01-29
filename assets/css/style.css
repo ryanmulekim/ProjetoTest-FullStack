@@ -12,3 +12,13 @@
     text-decoration: none;
     font-family: 'Source Sans 3', sans-serif;
 }
+.container{
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
