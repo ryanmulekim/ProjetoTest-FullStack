@@ -1,0 +1,19 @@
+@import "./varia.scss";
+
+header{
+    section{
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav{
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            li a{
+                margin: 0 15px;
+                color: $color-primaria;
+            }
+        }
+    }
+}
