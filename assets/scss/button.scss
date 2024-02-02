@@ -1,0 +1,10 @@
+@import "./varia.scss";
+
+.btn{
+    padding: 5px 30px;
+    border-radius: $btn-radius;
+    &.btn-laranja{
+        background-color: $color-tercearia;
+        color: $color-white;
+    }
+}
